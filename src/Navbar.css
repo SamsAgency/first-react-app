@@ -1,0 +1,39 @@
+.Navbar {
+  background-color: rgb(14, 83, 187);
+  box-sizing: border-box;
+  box-shadow: 0 2px 5px black;
+  display: flexbox;
+  color: whitesmoke;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.uList{
+    margin-left: 0;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+.lists:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+@media(max-width: 720px){
+    .Navbar {
+        font-size: 15px;
+    }
+}

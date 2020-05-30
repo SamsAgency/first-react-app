@@ -1,0 +1,31 @@
+.persons {
+    display: -webkit-inline-flex;
+    justify-content: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.persons-card{
+    margin-left: 2%;
+    box-sizing: border-box;
+    box-shadow: 0 3px 5px #6b6b6a;
+    padding: 20px;
+    display: inline-block;
+    background-color: rgb(41, 129, 212);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.persons-card:hover{
+    box-shadow: 2px 7px 7px #6b6b6a;
+    padding: 30px;
+    background-color: rgb(41, 129, 212);
+    color: white;
+    border-radius: 15px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

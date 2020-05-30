@@ -1,0 +1,50 @@
+.form-action{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-top: 20px;
+
+}
+
+.input-classname{
+    width: 300px;
+    border: #909192 ;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 9px;
+    box-sizing: unset;
+    box-shadow: 0 3px 3px rgb(170, 170, 170);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    background-color: rgb(19, 118, 248);
+    cursor: pointer;
+    
+  }
+  
+  button:hover{
+    margin-top: 20px;
+    padding: 15px;
+    box-sizing: unset;
+    box-shadow: 0 5px 7px rgb(170, 170, 170);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    background-color: rgb(3, 67, 151);
+    cursor: pointer;
+  }
